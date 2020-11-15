@@ -1,4 +1,3 @@
-<!-- php for db connection start -->
 <?php
 	$db= new mysqli('localhost','rkhadka','UTAS123','rkhadka');
 	
