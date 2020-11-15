@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+ html,body {
+  margin: 0;
+  height: 100%;
+}
+input[name=uname] {    
+	background-color: #5f7177;
+    border: #5f7177
+}  
+input[name=pass] {    
+	background-color: #5f7177;
+	background-color: #5f7177;
+    border: #5f7177
+}  
+.luname {    
+	color:#ffffff;
+}  
+.lpass {    
+	color:#ffffff;
+}  
+.header{
+	  background-image:url(../img/rabinHero.jpg);
+	  padding: 20px;
+	  text-align: center;
+	  position:relative;
+	  background-size: cover;
+	  color:
+	}
+.topnav {
+  overflow: hidden;
+  background-color: #000;
+  position:relative ;
+}
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.signInForm {
+	background-color:#000;
+	color:#5f7177;
+		display: block;
+		background-repeat: repeat y;
+
+}
+
+.content{
+	float: center;
+	position: absolute;
+	display:block;
+    width: 100%;
+    height: 100%;
+	background-color:rgb(178, 34, 34);
+	background-size: auto 100%; 
+	padding: auto;
+	
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+.mainContainer{
+	background-size: auto 100%;
+	height:100%;
+	display:block;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+ 
+.row{
+	min-height: 100%;
+  margin-bottom: 0px;
+  	background-color:rgb(178, 34, 34);
+	height:100%;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer,.p{
+	height: 50px;
+	
+}
+.footer {
+  background-color: #f1f1f1;  
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+/* Style the footer */
