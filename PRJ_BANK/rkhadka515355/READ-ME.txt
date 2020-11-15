@@ -1,0 +1,28 @@
+/*managers*/
+username - bahadurram
+password - Aussie#123
+
+username - sbandk
+password - BankAdmin#1
+/*clients*/
+username - 0455555555
+passwoed - Aussie#123
+
+username - 0466482340
+passwoed - Aussie#123
+
+username - 0424529183
+passwoed - Aussie#123
+
+username - 0455839226
+passwoed - Aussie#123
+
+username - 0000000000(bank username)
+password - BankAdmin#1
+
+/* about bank*/
+Bank has been assigned an account number of 102000000 which will be used to deposit and do ither transaction under bank
+This account has no daily limitation but amount over AUD25000 must be verified by manager
+
+/* about manager*/
+Managers must have a personal account and IT members are suppose to assign him as a manager. Manager can not see the password of users.
